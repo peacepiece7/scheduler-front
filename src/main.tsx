@@ -10,11 +10,11 @@ import '@/index.css'
 const queryClient = new QueryClient()
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <BrowserRouter>
-    <QueryClientProvider client={queryClient}>
-      <UserProvider>
+  <QueryClientProvider client={queryClient}>
+    <UserProvider>
+      <BrowserRouter>
         <App />
-      </UserProvider>
-    </QueryClientProvider>
-  </BrowserRouter>
+      </BrowserRouter>
+    </UserProvider>
+  </QueryClientProvider>
 )
