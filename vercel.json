@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/" },
+    { "source": "/calendar/:year/:month/:day", "destination": "/" },
+    { "source": "/login/test", "destination": "/" },
+    { "source": "/sample/:path", "destination": "/" }
+  ]
+}

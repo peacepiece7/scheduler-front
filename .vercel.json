@@ -1,7 +1,0 @@
-{
-  "rewrites": [
-    { "source": "/", "destination": "/index.html" },
-    { "source": "/calendar/:year/:month/:day", "destination": "/index.html" },
-    { "source": "/login/test", "destination": "/index.html" }
-  ]
-}
