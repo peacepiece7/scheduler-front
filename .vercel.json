@@ -1,3 +1,7 @@
 {
-"rewrites": [{ "source": "/(.*)", "destination": "https://scheduler-front-indi.vercel.app/" }, { "source": "/((\/.*).*)", "destination": "https://scheduler-front-indi.vercel.app/" }, { "source": "/(((\/.*).\/.*)\/.*)", "destination": "https://scheduler-front-indi.vercel.app/" }]  
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/calendar/:year/:month/:day", "destination": "/index.html" },
+    { "source": "/login/test", "destination": "/index.html" }
+  ]
 }
